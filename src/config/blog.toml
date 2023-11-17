@@ -1,0 +1,9 @@
+[redis]
+endpoint = "redis://:redis123@192.168.1.223:16379"
+redis_key_prefix = "blog:"
+
+[db]
+endpoint = "postgis://postgres:123456@192.168.1.223:15433/demo?sslmode=disable"
+max_open_conns = 10
+idle_max_lifetime = 10240
+conn_max_lifetime = 10240
